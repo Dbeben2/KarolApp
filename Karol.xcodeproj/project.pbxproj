@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A705DEBA28ED1AC1001A7262 /* Tab2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A705DEB928ED1AC1001A7262 /* Tab2VC.swift */; };
+		A705DEBC28ED1AF7001A7262 /* Tab3VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A705DEBB28ED1AF7001A7262 /* Tab3VC.swift */; };
+		A705DEBE28ED1B5C001A7262 /* Tab1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A705DEBD28ED1B5C001A7262 /* Tab1VC.swift */; };
 		B0E6EC9628ECAF05005060E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E6EC9528ECAF05005060E5 /* AppDelegate.swift */; };
 		B0E6EC9828ECAF05005060E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E6EC9728ECAF05005060E5 /* SceneDelegate.swift */; };
-		B0E6EC9A28ECAF05005060E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E6EC9928ECAF05005060E5 /* ViewController.swift */; };
 		B0E6EC9D28ECAF05005060E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0E6EC9B28ECAF05005060E5 /* Main.storyboard */; };
 		B0E6EC9F28ECAF06005060E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0E6EC9E28ECAF06005060E5 /* Assets.xcassets */; };
 		B0E6ECA228ECAF06005060E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0E6ECA028ECAF06005060E5 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A705DEB928ED1AC1001A7262 /* Tab2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab2VC.swift; sourceTree = "<group>"; };
+		A705DEBB28ED1AF7001A7262 /* Tab3VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab3VC.swift; sourceTree = "<group>"; };
+		A705DEBD28ED1B5C001A7262 /* Tab1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab1VC.swift; sourceTree = "<group>"; };
 		B0E6EC9228ECAF05005060E5 /* Karol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Karol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0E6EC9528ECAF05005060E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0E6EC9728ECAF05005060E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B0E6EC9928ECAF05005060E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B0E6EC9C28ECAF05005060E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B0E6EC9E28ECAF06005060E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0E6ECA128ECAF06005060E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +62,9 @@
 			children = (
 				B0E6EC9528ECAF05005060E5 /* AppDelegate.swift */,
 				B0E6EC9728ECAF05005060E5 /* SceneDelegate.swift */,
-				B0E6EC9928ECAF05005060E5 /* ViewController.swift */,
+				A705DEBD28ED1B5C001A7262 /* Tab1VC.swift */,
+				A705DEB928ED1AC1001A7262 /* Tab2VC.swift */,
+				A705DEBB28ED1AF7001A7262 /* Tab3VC.swift */,
 				B0E6EC9B28ECAF05005060E5 /* Main.storyboard */,
 				B0E6EC9E28ECAF06005060E5 /* Assets.xcassets */,
 				B0E6ECA028ECAF06005060E5 /* LaunchScreen.storyboard */,
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0E6EC9A28ECAF05005060E5 /* ViewController.swift in Sources */,
+				A705DEBA28ED1AC1001A7262 /* Tab2VC.swift in Sources */,
+				A705DEBC28ED1AF7001A7262 /* Tab3VC.swift in Sources */,
 				B0E6EC9628ECAF05005060E5 /* AppDelegate.swift in Sources */,
 				B0E6EC9828ECAF05005060E5 /* SceneDelegate.swift in Sources */,
+				A705DEBE28ED1B5C001A7262 /* Tab1VC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

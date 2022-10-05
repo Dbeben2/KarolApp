@@ -7,12 +7,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class Tab1: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        //view.backgroundColor = .systemPink
-        
     }
 
 
