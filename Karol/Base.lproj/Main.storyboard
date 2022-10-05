@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Tab1VC-->
+        <!--Calendar-->
         <scene sceneID="EJN-mx-gCb">
             <objects>
                 <viewController id="zD2-aa-fFI" customClass="Tab1VC" customModule="Karol" customModuleProvider="target" sceneMemberID="viewController">
@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="HELLO 1" borderStyle="roundedRect" minimumFontSize="17" id="oby-cc-6s6">
-                                <rect key="frame" x="142" y="464" width="163" height="51"/>
+                                <rect key="frame" x="114" y="233" width="163" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
@@ -25,15 +25,15 @@
                             </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="IV2-GB-5dW"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="history" id="9pd-JG-drt"/>
+                    <tabBarItem key="tabBarItem" title="Calendar" image="calendar" catalog="system" id="9pd-JG-drt"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o8i-pn-zKY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-4320" y="793.3649289099526"/>
         </scene>
-        <!--Tab2VC-->
+        <!--Tasks-->
         <scene sceneID="drJ-gx-ncB">
             <objects>
                 <viewController id="YSB-AQ-fde" customClass="Tab2VC" customModule="Karol" customModuleProvider="target" sceneMemberID="viewController">
@@ -42,7 +42,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="HELLO 2" borderStyle="roundedRect" minimumFontSize="17" id="dzK-xu-WrD">
-                                <rect key="frame" x="142" y="464" width="167" height="51"/>
+                                <rect key="frame" x="112" y="217" width="167" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
@@ -52,7 +52,7 @@
                         <viewLayoutGuide key="safeArea" id="bMq-w5-TwK"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="mostRecent" id="jg2-tR-ffC"/>
+                    <tabBarItem key="tabBarItem" title="Tasks" image="checklist" catalog="system" id="jg2-tR-ffC"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8sh-n5-PYc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -67,7 +67,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="HELLO 3" borderStyle="roundedRect" minimumFontSize="17" id="2ux-xl-1Mx">
-                                <rect key="frame" x="142" y="464" width="168" height="51"/>
+                                <rect key="frame" x="111" y="210" width="168" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
@@ -77,7 +77,7 @@
                         <viewLayoutGuide key="safeArea" id="RGe-1V-z1o"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="featured" id="jMy-X2-Gzt"/>
+                    <tabBarItem key="tabBarItem" title="" systemItem="more" id="jMy-X2-Gzt"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sxk-iU-kXY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -90,7 +90,8 @@
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="ATZ-h2-WY2">
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" systemColor="systemYellowColor"/>
                     </tabBar>
                     <connections>
                         <segue destination="zD2-aa-fFI" kind="relationship" relationship="viewControllers" id="Uu3-i0-Fm8"/>
@@ -104,8 +105,16 @@
         </scene>
     </scenes>
     <resources>
+        <image name="calendar" catalog="system" width="128" height="107"/>
+        <image name="checklist" catalog="system" width="128" height="107"/>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
